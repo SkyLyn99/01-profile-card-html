@@ -30,7 +30,7 @@ p {
 }
 
 .card img {
-    width: 200px; /* Resize the image to better fit the card */
+    width: 300px; /* Resize the image to better fit the card */
     height: 120px;
     border-radius: 50%; /* Keep the circular shape */
     margin-bottom: 20px; /* Add spacing below the image */
