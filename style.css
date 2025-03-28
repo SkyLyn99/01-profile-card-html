@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue; /* Sets a light blue background for the entire page */
+    text-align: center; /* Centers all text content horizontally */
+    font-family: Arial, sans-serif; /* Applies a clean, sans-serif font to the page */
+}
+
+h1 {
+    font-size: 45px; /* Sets a large font size for the main heading */
+    color: darkblue; /* Colors the main heading text in dark blue */
+}
+
+h2 {
+    font-size: 30px; /* Sets a medium font size for the subheading */
+    color: slateblue; /* Colors the subheading text in slate blue */
+}
+
+p {
+    font-size: 18px; /* Sets a readable font size for paragraph text */
+    line-height: 1.6; /* Increases line spacing for better readability */
+}
+
+.card {
+    border: 2px solid lightpink; /* Adds a solid border with dark blue color */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 20px; /* Adds space inside the card between the content and the border */
+    width: 300px; /* Sets a fixed width for the card */
+    margin: 50px auto; /* Centers the card horizontally and adds vertical spacing */
+    background-color: white; /* Sets the card's background color to white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a lifted effect */
+}
+
+.card img {
+    width: 200px; /* Resize the image to better fit the card */
+    height: 120px;
+    border-radius: 50%; /* Keep the circular shape */
+    margin-bottom: 20px; /* Add spacing below the image */
+}
+
+.card ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 20px 0 0; /* Add spacing above the list */
+}
+
+.card ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
